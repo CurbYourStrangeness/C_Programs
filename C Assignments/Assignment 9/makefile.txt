@@ -1,0 +1,5 @@
+out: servMain.c
+    gcc -Wall servMain.c -o out
+	
+out1: cliMain.c
+    gcc -Wall cliMain.c -o out1
