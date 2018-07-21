@@ -1,0 +1,8 @@
+solution: Hmwrk1-1.o Hmwrk1.o
+	gcc Hmwrk1.o Hmwrk1-1.o -o solution -lm
+
+Hmwrk1.o: Hmwrk1.c
+	gcc -c -Wall Hmwrk1.c
+
+Hmwrk1-1.o: Hmwrk1-1.h Hmwrk1-1.c
+	gcc -c -Wall Hmwrk1-1.c
