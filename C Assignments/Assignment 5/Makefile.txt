@@ -1,0 +1,8 @@
+out: list1.omain.o
+	gcc main.o list1.o -o out
+
+main.o: list.h main.c
+	gcc -c -Wall main.c
+
+list1.o: list.h list1.c
+	gcc -c -Wall list1.c
