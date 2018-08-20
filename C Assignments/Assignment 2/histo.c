@@ -6,7 +6,7 @@ void init_histogram(int histo[])
 	int total = NUM_DIGITS;
 	for(value = 0; value < total; ++value)
 	{
-		histo[value] = 0;
+           histo[value] = 0;
 	}
 }
 
