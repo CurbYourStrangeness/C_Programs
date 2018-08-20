@@ -16,49 +16,49 @@ void cons_histogram(const char string [], int histo[])
 	int s = strlen(string);
 	while(t <= s)
 	{
-		if(isdigit(string[t])){
-			if(string[t] == '0')
-			{
-			++histo[0];
-			}
-			if(string[t] == '1')
-			{
-			++histo[1];
-			}
-			if(string[t] == '2')
-			{
-			++histo[2];
-			}
-			if(string[t] == '3')
-			{
-			++histo[3];
-			}
-			if(string[t] == '4')
-			{
-			++histo[4];
-			}
-			if(string[t] == '5')
-			{
-			++histo[5];
-			}
-			if(string[t] == '6')
-			{
-			++histo[6];
-			}
-			if(string[t] == '7')
-			{
-			++histo[7];
-			}
-			if(string[t] == '8')
-			{
-			++histo[8];
-			}
-			if(string[t] == '9')
-			{
-			++histo[9];
-			}
+	   if(isdigit(string[t])){
+		if(string[t] == '0')
+		{
+		  ++histo[0];
 		}
-		++t;
+		if(string[t] == '1')
+		{
+		  ++histo[1];
+		}
+		if(string[t] == '2')
+		{
+		  ++histo[2];
+		}
+		if(string[t] == '3')
+		{
+		  ++histo[3];
+		}
+		if(string[t] == '4')
+		{
+		  ++histo[4];
+		}
+		if(string[t] == '5')
+		{
+		  ++histo[5];
+		}
+		if(string[t] == '6')
+		{
+		  ++histo[6];
+		}
+		if(string[t] == '7')
+		{
+		  ++histo[7];
+		}
+		if(string[t] == '8')
+		{
+		  ++histo[8];
+		}
+		if(string[t] == '9')
+		{
+		  ++histo[9];
+		}
+	}
+	  ++t;
 	}			
 }
 
@@ -72,7 +72,7 @@ void most_frequent(const int histo[], char* ret_val)
 	{
 		if(histo[t] > histo[moi])
 		{
-		moi = t;
+		  moi = t;
 		}
 		++t;
 	}
@@ -89,15 +89,15 @@ void display_histogram(int* const histo)
 	{
 		if(histo[t] > 1)
 		{
-		char index = t + '0';
-		char value = histo[t] + '0';
-		printf("%c appeared %c times\n", index, value);
+		 char index = t + '0';
+		 char value = histo[t] + '0';
+		 printf("%c appeared %c times\n", index, value);
 		}
 		else if(histo[t] > 0)
 		{
-		char index = t+ '0';
-		char value = histo[t] +'0';
-		printf("%c appeared %c time\n", index, value);
+		 char index = t+ '0';
+		 char value = histo[t] +'0';
+		 printf("%c appeared %c time\n", index, value);
 		}
 	}
 	printf("\n\n");
