@@ -6,9 +6,9 @@ int main(int args, char *argv[])
 	
 	if (args == 2)
 	{
-	init_histogram(histo);
-	cons_histogram(argv[1], histo);
-	display_histogram(histo);
+	  init_histogram(histo);
+	  cons_histogram(argv[1], histo);
+	  display_histogram(histo);
 	}
 	else
 	exit(1);
