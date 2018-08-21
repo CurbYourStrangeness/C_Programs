@@ -1,1 +1,1 @@
-A Collection of Assignments, makefiles, shell builds, and client/server piping from my C course.
+A Collection of Assignments, makefiles, shell builds, and Client/Server builds and traffic from my C course.
