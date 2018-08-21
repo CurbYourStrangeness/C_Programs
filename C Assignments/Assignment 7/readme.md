@@ -1,4 +1,4 @@
-in order to run the utility, run all the below commands as per instructions in the terminal.
+In order to run the utility, run all the below commands as per instructions in the terminal.
 
 1) first compile the code 
 
@@ -6,11 +6,11 @@ in order to run the utility, run all the below commands as per instructions in t
 		or
 	gcc main.c	
 
-2) now create an archive file of the given test files by entering the following command
+2) Now create an archive file of the given test files by entering the following command
 
 	./a.out -c ./here my_archive
 
-3) to make sure our archive was correct, delete all the files in the ./here folder and then run this command which extracts the archive file. So basically this restores the contents of the folder, contents of the newly file create in the directory should be same as before.
+3) To make sure our archive was correct, delete all the files in the ./here folder and then run this command which extracts the archive file. So basically this restores the contents of the folder, contents of the newly file create in the directory should be same as before.
 
 	./a.out -e ./here my_archive
 
