@@ -1,1 +1,1 @@
-Find the most frequent numbers in a histogram.
+Display a histogram with only the digit ['0' - '9'] characters that appear in it.
