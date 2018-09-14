@@ -31,7 +31,7 @@ int list_len(node* head);
 //print the data values of all the nodes in the list (from start to end)
 void print_list(node* head);
 
-void free_node1(node * head);
+void free_node1(node* head);
 
 void free_list(node** head);
 
